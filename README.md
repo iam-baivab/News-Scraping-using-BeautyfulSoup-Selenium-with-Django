@@ -11,10 +11,8 @@
     - [Installation](#installation)
 4. [Usage](#usage)
 5. [Changelog](#changelog)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
-9. [Acknowledgements](#acknowledgements)
+6. [License](#license)
+7. [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
