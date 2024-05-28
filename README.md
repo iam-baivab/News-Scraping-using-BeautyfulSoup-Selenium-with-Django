@@ -68,6 +68,58 @@ python manage.py runserver
 
 Navigate to the admin panel, configure the scraping tasks, and start the scraping process. The scraped data will be saved in the specified formats and locations.
 
+## Getting Started with Selenium
+
+### What is Web Scraping?
+Web scraping is a technique for extracting information from the internet automatically using a software that simulates human web surfing.
+
+### What is Selenium?
+Selenium is a **free (open-source) automated testing framework** used to validate web applications across different browsers and platforms. It can be used for **automating web browsers to do a number of tasks** such as web-scraping.
+
+### Installing Selenium
+
+To install Selenium:
+```Shell
+    $ pip install selenium # (Python 2)
+    $ pip3 install selenium # (Python 3)
+``` 
+
+### Installing Webdrivers
+
+Selenium requires a **driver** to interface with the chosen browser. Firefox, for example, requires geckodriver, which needs to be installed before the below examples can be run. Note that the webdriver must be located in your `PATH`, e. g., place it in `/usr/bin` or `/usr/local/bin`.
+
+Other supported browsers will have their own drivers available. Links to some of the more popular browser drivers are as follows:
+
+- **Chrome**:	https://sites.google.com/a/chromium.org/chromedriver/downloads
+- **Edge**:	    https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+- **Firefox**:	https://github.com/mozilla/geckodriver/releases
+- **Safari**:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+For this project, I am using Chrome's webdriver called **Chromedriver**. There are multiple ways to install Chromedriver:
+1. Using [**webdriver-manager**](https://pypi.org/project/webdriver-manager/) (recommended)
+    
+    - Install package:
+        ```Shell
+        $ pip install webdriver-manager # (Python 2)
+        $ pip3 install webdriver-manager # (Python 3)
+        ```     
+    - Load package:
+        ```python
+        from selenium import webdriver
+        from webdriver_manager.chrome import ChromeDriverManager
+
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        ```
+
+2. **Manual download** from [**Chrome's website**](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+
+    - Load package:
+        ```python
+        from selenium import webdriver
+
+        driver = webdriver.Chrome(executable_path='/path/to/chromedriver)
+        ```
+
 ## Changelog
 
 ### v1.0.1
