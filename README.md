@@ -180,6 +180,6 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 - [Django](https://www.djangoproject.com/)
 
 [license-shield]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
-[license-url]: https://github.com/iam-baivab/News-Scraping-using-BeautifulSoup-Selenium-with-Django/blob/main/LICENSE
+[license-url]: https://github.com/iam-baivab/News-Scraping-using-BeautyfulSoup-Selenium-with-Django/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/baivabsarkar/
