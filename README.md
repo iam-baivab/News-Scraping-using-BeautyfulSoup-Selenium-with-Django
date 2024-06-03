@@ -28,6 +28,9 @@ This project automates the process of scraping news articles from various source
 - Saves scraped data to Excel files and a MySQL database.
 - Creates a new folder for data storage based on the current date.
 
+## Images of the Scraping
+<img src="image/project.jpg">
+
 ## Getting Started
 
 To get a local copy up and running, follow these steps.
